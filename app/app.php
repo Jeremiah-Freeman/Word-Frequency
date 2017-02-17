@@ -13,7 +13,14 @@
         return $app['twig']->render('Input.html.twig');
     });
 
+    $app->post("/input" , function() use ($app)
+    {
+        $userInput = new RepeatCounter();
+        $count = $userInput->findTheWord($_POST['sentence'] , $_POST['singleWord']);
 
+        return $app['twig']->render('Output.html.twig' , array('count' => $count));
+
+    });
 
     return $app;
 

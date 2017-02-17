@@ -6,10 +6,19 @@
     <meta charset="utf-8">
     <title>Choose word and Search for that word</title>
 </head>
-    <h1>Choose a word and find out how many times that word appears in any sentence</h1>
+    <div class="container">
+
+        <h1 class="jumbotron">Choose a word and find out how many times that word appears in any sentence</h1>
+    </div>
 <body>
-    <form class="singleWord" action="/input" method="post">
-    <input id="singleWord"type="text" name="singleWord" >
+    <form class="form-group" action="/input" method="post">
+
+        <input class="form-control" id="singleWord" type="text" placeholder="Enter a word" name='singleWord' >
+
+        <input class="form-control"  id="sentence" type="text" placeholder="Enter a sentence" name='sentence' >
+
+        <button type="submit" class="btn btn-success" name="button">count that word</button>
+
     </form>
 </body>
 </html>

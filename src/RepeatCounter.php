@@ -1,16 +1,16 @@
 <?php
     class RepeatCounter
     {
-        function findTheWord($input,$input2)
+        function findTheWord($input2,$input)
         {
-            $input = "love";
-            $input2 = "when is love to much love";
+            $input = (string)$input;
+            $input2 = (string)$input2;
 
             $count = substr_count($input2,$input);
             return $count;
 
         }
-    }
+    };
 
 
 
