@@ -1,12 +1,13 @@
 #### By Jeremiah Freeman
 
   ## Description/Specs
-   User enters a single word in one input box and a sentence containing multiple or singular copies of that word in another input box. The single word will be searched for in the sentence input box, the number of times it is repeated will be returned as a number. 
+   User enters a single word in one input box and a sentence containing multiple or singular copies of that word in another input box. The single word will be searched for in the sentence input box, the number of times it is repeated will be returned as a number.
 
 
 
   | Behavior | Input 1 | Input 2 | Output |
   |----------|---------|---------|--------|
+  
   | User enters a single word in one input box and a sentence containing multiple or singular copies of that word in another input box. The single word will be searched for the frequency of that word in the sentence input box, the number of times repeated will be returned as a number. | love | How much love is two much love | 2 |
 
 

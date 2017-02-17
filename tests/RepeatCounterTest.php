@@ -5,21 +5,21 @@
     class RepeatCounterTest extends PHPUnit_Framework_TestCase
     {
 
-        function test_findWordMatch($input)
+        function test_findWordMatch()
         {
            //Arrange
-           $test_findWordMatch = new RepeatCounter;
+           $test_findTheWord = new RepeatCounter;
            $input = "love";
            $input2 = "how much love it too much love";
 
            //Act
-           $result = $test_FindTheWord->findTheWord($input);
+           $result = $test_findTheWord->findTheWord($inpu2,$input);
 
            //Assert
-           $this->assertEquals("2", $result);
+           $this->assertEquals( 2 , $result );
        }
 
-    }
+   };
 
 
 
