@@ -1,26 +1,25 @@
 #### By Jeremiah Freeman
 
   ## Description/Specs
-   User enters a single word in one input box and a sentence containing multiple or singular copies of that word in another input box. The single word will be searched for in the sentence input box, the number of times it is repeated will be returned as a number.
+   * User enters a single word in one input box and a sentence containing multiple or singular copies of that word in another input box. The single word will be searched for in the sentence input box. The number of times it is repeated will be returned as a number.
 
 
 
   | Behavior | Input 1 | Input 2 | Output |
-  |----------|---------|---------|--------|
 
-  Behavior - User enters a single word in one input box and a sentence containing multiple or singular copies of that word in another input box. The single word will be searched for the frequency of that word in the sentence input box, the number of times repeated will be returned as a number.
+   * Behavior - User enters a single word in one input box and a sentence containing multiple or singular copies of that word in another input box. The single word will be searched for the frequency of that word in the sentence input box. The number of times repeated will be returned as a number.
 
-  Input 1 - love
+   * Input 1 - love
 
-  Input 2 - How much love is two much love
+   * Input 2 - How much love is two much love
 
-  Output - 2
+   * Output - (2)
 
 
   ## Setup/Installation Requirements
 
   * Open web browser.
- +* Clone this, "" repository.
+ +* Clone this, "https://github.com/jaythinkshappiness/Word-Frequency" repository.
   * Open Terminal.
   * If using Mac computer run this code in terminal if 'Composer' has not been previously installed.
       - cd ~
