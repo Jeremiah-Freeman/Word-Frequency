@@ -7,8 +7,14 @@
 
   | Behavior | Input 1 | Input 2 | Output |
   |----------|---------|---------|--------|
-  
-  | User enters a single word in one input box and a sentence containing multiple or singular copies of that word in another input box. The single word will be searched for the frequency of that word in the sentence input box, the number of times repeated will be returned as a number. | love | How much love is two much love | 2 |
+
+  Behavior - User enters a single word in one input box and a sentence containing multiple or singular copies of that word in another input box. The single word will be searched for the frequency of that word in the sentence input box, the number of times repeated will be returned as a number.
+
+  Input 1 - love
+
+  Input 2 - How much love is two much love
+
+  Output - 2
 
 
   ## Setup/Installation Requirements
