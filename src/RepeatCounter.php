@@ -3,8 +3,8 @@
     {
         function findTheWord($input2,$input)
         {
-            $input = (string)$input;
-            $input2 = (string)$input2;
+            $input = (string)strtolower($input);
+            $input2 = (string)strtolower($input2);
 
             $count = substr_count($input2,$input);
             return $count;
