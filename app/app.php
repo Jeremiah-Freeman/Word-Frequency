@@ -16,7 +16,7 @@
     $app->post("/input" , function() use ($app)
     {
         $userInput = new RepeatCounter();
-        $count = $userInput->findTheWord($_POST['sentence'] , $_POST['singleWord']);
+        $count = $userInput->countRepeats($_POST['sentence'] , $_POST['singleWord']);
 
         return $app['twig']->render('Output.html.twig' , array('count' => $count));
 
