@@ -1,32 +1,29 @@
+<p align="center">![alt tag](http://spreadsheeto.com/wp-content/uploads/2016/09/search-with-wildcards.png)</p>
+
 #### By Jeremiah Freeman
 
   ## Description/Specs
    * User enters a single word in one input box and a sentence containing multiple or singular copies of that word in another input box. The single word will be searched for in the sentence input box. The number of times it is repeated will be returned as a number.
 
 
-
-  | Behavior | Input 1 | Input 2 | Output |
-
-   * Behavior - User enters a single word in one input box and a sentence containing multiple or singular copies of that word in another input box. The single word will be searched for the frequency of that word in the sentence input box. The number of times repeated will be returned as a number.
-
-   * Input 1 - love
-
-   * Input 2 - How much love is two much love
-
-   * Output - (2)
+| Behavior | Input 1 | Input 2 | Output |
+|----------|---------|---------|--------|
+| User enters lowercased word to be searched and a sentence to search in | 'love' | 'how much "love" is to much "love"' | 2 |
+|  User enters UPPERCASED word to be searched and a sentence to search in | 'Love' | 'how much "love" is to much "Love"' | 2 |
+| User enters upper/lowercased word to be searched and a sentence with punctuation to be search in | 'Love' | 'how much "love" is to much "Love?"' | 1 |
 
 
-  ## Setup/Installation Requirements
+  ## Setup / Installation Requirements
 
   * Open web browser.
  +* Clone this, "https://github.com/jaythinkshappiness/Word-Frequency" repository.
   * Open Terminal.
   * If using Mac computer run this code in terminal if 'Composer' has not been previously installed.
-      - cd ~
-     -sudo mkdir -p /usr/local/bin
-     -sudo chown -R $USER /usr/local/
-     -curl -sS https://getcomposer.org/installer | php
-     -mv composer.phar /usr/local/bin/composer
+ - cd ~
+ -sudo mkdir -p /usr/local/bin
+ -sudo chown -R $USER /usr/local/
+ -curl -sS https://getcomposer.org/installer | php
+ -mv composer.phar /usr/local/bin/composer
  * If running a windows computer and 'Composer' has not been previously installed:
      -please go to this address, a download will automatically install: "https://getcomposer.org/Composer-Setup.exe".
      -follow all setup and installation instructions.
