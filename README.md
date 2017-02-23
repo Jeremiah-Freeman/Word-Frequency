@@ -1,4 +1,4 @@
-<p align="center">![alt tag](http://spreadsheeto.com/wp-content/uploads/2016/09/search-with-wildcards.png)</p>
+![alt tag](http://spreadsheeto.com/wp-content/uploads/2016/09/search-with-wildcards.png)
 
 #### By Jeremiah Freeman
 
