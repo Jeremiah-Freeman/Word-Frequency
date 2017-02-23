@@ -4,7 +4,7 @@
 
     class RepeatCounterTest extends PHPUnit_Framework_TestCase
     {
-        function test_countRepeats()
+        function test_Lower_Case()
         {
            //Arrange
            $test_countRepeats = new RepeatCounter;
@@ -17,5 +17,6 @@
            //Assert
            $this->assertEquals( 2 , $result );
        }
+    
    }
 ?>
