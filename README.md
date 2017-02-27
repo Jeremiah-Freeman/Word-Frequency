@@ -11,6 +11,8 @@
 | User enters lowercased word to be searched and a sentence to search in | 'love' | 'how much "love" is to much "love"' | 2 |
 |  User enters UPPERCASED word to be searched and a sentence to search in | 'Love' | 'how much "love" is to much "Love"' | 2 |
 | User enters upper/lowercased word to be searched and a sentence with punctuation to be search in | 'Love' | 'how much "love" is to much "Love?"' | 1 |
+| User enter word to be search without matching that word which appears inside another word | "love" | "Love is a Lovely thing" | 1 |
+| User enter word with number attached | 'Love1' | Love1 is not the same as 'Love' | 1 |
 
 
   ## Setup / Installation Requirements

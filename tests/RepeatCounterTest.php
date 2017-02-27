@@ -43,6 +43,32 @@
          //Assert
          $this->assertEquals( 1 , $result );
      }
+     function test_Word_inside_Word()
+     {
+        //Arrange
+        $test_countRepeats = new RepeatCounter;
+        $input = "Love";
+        $input2 = "Love is a Lovely thing";
+
+        //Act
+        $result = $test_countRepeats->countRepeats($input2,$input);
+
+        //Assert
+        $this->assertEquals( 1 , $result );
+    }
+    function test_Number()
+    {
+       //Arrange
+       $test_countRepeats = new RepeatCounter;
+       $input = "Love1";
+       $input2 = "Love1 is not the same as Love";
+
+       //Act
+       $result = $test_countRepeats->countRepeats($input2,$input);
+
+       //Assert
+       $this->assertEquals( 1 , $result );
+   }
 
    }
 ?>
