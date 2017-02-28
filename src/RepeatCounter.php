@@ -1,15 +1,15 @@
 <?php
     class RepeatCounter
     {
-        function countRepeats($input2,$input)
+        function countRepeats($sentence,$searched_Word)
         {
             $count = 0;
-            $input = strtolower($input);
-            $input2 = explode(" " , (string)($input2));
-            $input2 = array_map('strtolower', $input2);
+            $searched_Word = strtolower($searched_Word);
+            $sentence = explode(" " , (string)($sentence));
+            $sentence = array_map('strtolower', $sentence);
 
-            for($i = 0; $i <= count($input2); $i++) {
-                if($input2[$i] == $input) {
+            for($i = 0; $i <= count($sentence); $i++) {
+                if($sentence[$i] == $searched_Word) {
                     $count++;
                 }
             }return $count;
