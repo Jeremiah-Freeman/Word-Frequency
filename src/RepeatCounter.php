@@ -4,8 +4,7 @@
         function countRepeats($input2,$input)
         {
             $count = 0;
-            $ignore_these = array("");
-            $input = str_replace("","",strtolower($input));
+            $input = strtolower($input);
             $input2 = explode(" " , (string)($input2));
             $input2 = array_map('strtolower', $input2);
 
