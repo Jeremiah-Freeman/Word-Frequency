@@ -17,9 +17,8 @@
     {
         $userInput = new RepeatCounter();
         $count = $userInput->countRepeats($_POST['sentence'] , $_POST['singleWord']);
-
-        return $app['twig']->render('Output.html.twig' , array('count' => $count));
-
+        $test = $_POST['singleWord'];
+        return $app['twig']->render('Output.html.twig', array('counts' => $count , 'soloWord' => $_POST['singleWord']));
     });
 
     return $app;
